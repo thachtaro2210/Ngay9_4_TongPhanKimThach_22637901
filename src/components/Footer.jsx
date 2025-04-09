@@ -1,3 +1,4 @@
+import a1 from "../assets/chefify.png"
 const Footer = () => {
     return (
       <footer className="bg-gray-900 text-white py-10 px-6">
@@ -51,12 +52,10 @@ const Footer = () => {
           
           <div className="mt-10 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
-              <div className="bg-white p-1 rounded-full mr-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-pink-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-                </svg>
+              <div className=" rounded-full mr-2">
+               <img src={a1} alt="" />
               </div>
-              <span className="text-lg font-bold">Chefify</span>
+             
             </div>
             <div className="text-sm text-gray-400">
               © 2025 Chefify Company | Terms of Service | Privacy Policy
