@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 import SummerRecipes from './components/SummerRecipes'
 import RecipesWithVideos from './components/RecipesWithVideos'
 import EditorsPick from './components/EditorsPick'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 function App() {
   return (
     <div className="min-h-screen bg-white">
@@ -15,7 +15,7 @@ function App() {
         <RecipesWithVideos />
         <EditorsPick />
       </main>
-      {/* <Footer />  */}
+      <Footer /> 
     </div>
   )
 }
