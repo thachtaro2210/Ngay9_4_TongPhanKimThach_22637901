@@ -9,7 +9,7 @@ const Hero = () => {
         <img
           src={heroBackgroundImage}
           alt="Kitchen background"
-          className="w-full h-190 object-cover"
+          className="w-full h-150 object-cover"
         />
       </div>
 

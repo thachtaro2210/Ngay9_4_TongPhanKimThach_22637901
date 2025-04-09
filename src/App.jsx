@@ -1,9 +1,9 @@
 // import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-// import SummerRecipes from './components/SummerRecipes'
-// import RecipesWithVideos from './components/RecipesWithVideos'
-// import EditorsPick from './components/EditorsPick'
+import SummerRecipes from './components/SummerRecipes'
+import RecipesWithVideos from './components/RecipesWithVideos'
+import EditorsPick from './components/EditorsPick'
 // import Footer from './components/Footer'
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
       <Navbar />
        <main>
         <Hero />
-        {/* <SummerRecipes />
+         <SummerRecipes />
         <RecipesWithVideos />
-        <EditorsPick /> */}
+        <EditorsPick />
       </main>
       {/* <Footer />  */}
     </div>
