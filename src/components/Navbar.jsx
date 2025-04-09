@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import taki from "../assets/chef.svg"
+import taki from "../assets/chefify.png"
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('')
   
@@ -11,9 +11,9 @@ const Navbar = () => {
             <a href="/" className="flex items-center">
               <div className="">
                
-                <img src={taki} alt="" className='w-8 h-8 bg-pink-400 rounded-2xl' />
+                <img src={taki} alt="" className='w-20 h-10 ' />
               </div>
-              <span className="ml-2 text-2xl font-bold text-pink-500">Chefify</span>
+             
             </a>
           </div>
           <div className="relative flex items-center"> {/* Giữ relative để định vị icon */}
